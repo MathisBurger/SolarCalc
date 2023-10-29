@@ -150,7 +150,7 @@ struct PartnerObject : Codable {
     let id: Int
     
     /// The label of the partner
-    let label: String
+    let label: String?
     
     /// The logo of the url
     let logo: String
