@@ -12,4 +12,7 @@ enum RoofRenovatedPeriod : String, Codable {
     
     /// A new building
     case newBuilding = "new_building"
+    
+    /// A building built after 1990
+    case after_1990 = "after_1990"
 }

@@ -13,4 +13,13 @@ enum HouseType : String, Codable {
     
     /// A detached house
     case detachtedHouse = "detached house"
+    
+    /// A semi detached house
+    case semiDetachedHouse = "semi-detached house"
+    
+    /// A town house
+    case townHouse = "townhouse"
+    
+    /// An end terrace house
+    case endTerraceHouse = "end-terrace house"
 }

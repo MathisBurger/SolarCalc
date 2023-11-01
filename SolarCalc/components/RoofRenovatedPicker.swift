@@ -16,6 +16,7 @@ struct RoofRenovatedPicker: View {
     var body: some View {
         Picker("Dachmaterial", selection: type) {
             Text("Neubau").tag(RoofRenovatedPeriod.newBuilding)
+            Text("nach 1990").tag(RoofRenovatedPeriod.after_1990)
         }
     }
 }

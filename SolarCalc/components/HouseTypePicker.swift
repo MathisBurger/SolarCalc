@@ -16,6 +16,9 @@ struct HouseTypePicker: View {
     var body: some View {
         Picker("Haustyp", selection: type) {
             Text("Freistehend").tag(HouseType.detachtedHouse)
+            Text("Dopelhaushälfte").tag(HouseType.semiDetachedHouse)
+            Text("Reihenmittelhaus").tag(HouseType.townHouse)
+            Text("Reihenendhaus").tag(HouseType.endTerraceHouse)
         }
     }
 }
