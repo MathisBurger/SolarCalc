@@ -25,14 +25,15 @@ struct OffersView: View {
                     Text(String(format: "CO2 Einsparung: %.2f", self.response!.co2_savings))
                     Text(String(format: "Anlagenfläche: %.2f", self.response!.total_plant_surface))
                 }.padding()
-                    .frame(maxWidth: .infinity)
-                    .background(Color(.sRGB, red: 9/255, green: 111/255, blue: 182/255, opacity: 0.1))
+                .frame(maxWidth: .infinity)
+                .background(Color(.sRGB, red: 9/255, green: 111/255, blue: 182/255, opacity: 0.1))
                 .cornerRadius(10)
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1)
                 )
                 .padding([.top, .horizontal])
+                
             }
         }
         .onAppear() {
