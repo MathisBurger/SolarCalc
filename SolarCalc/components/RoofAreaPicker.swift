@@ -15,7 +15,10 @@ struct RoofAreaPicker: View {
     
     var body: some View {
         Picker("Dachflaeche", selection: type) {
+            Text("0qm -25qm").tag(RoofArea.upTo25)
+            Text("26qm - 50qm").tag(RoofArea.qm26To50)
             Text("51qm - 100qm").tag(RoofArea.qm51to100)
+            Text("100qm +").tag(RoofArea.moreThan100)
         }
     }
 }

@@ -16,6 +16,7 @@ struct RoofMaterialPicker: View {
     var body: some View {
         Picker("Dachmaterial", selection: type) {
             Text("Ziegel").tag(RoofMaterial.clay)
+            Text("Schiefer").tag(RoofMaterial.slate)
         }
     }
 }

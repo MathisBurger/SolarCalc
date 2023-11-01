@@ -12,4 +12,7 @@ enum RoofMaterial : String, Codable {
     
     /// Clay material
     case clay = "clay"
+    
+    /// Slate material
+    case slate = "slate"
 }
