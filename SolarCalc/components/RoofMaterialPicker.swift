@@ -17,6 +17,15 @@ struct RoofMaterialPicker: View {
         Picker("Dachmaterial", selection: type) {
             Text("Ziegel").tag(RoofMaterial.clay)
             Text("Schiefer").tag(RoofMaterial.slate)
+            Text("Biberschwanz").tag(RoofMaterial.plainTile)
+            Text("Dachpappe").tag(RoofMaterial.roofingFelt)
+            Text("Asbest").tag(RoofMaterial.asbestos)
+            Text("Wellblech").tag(RoofMaterial.corrugatedIron)
+            Text("Trapezblech").tag(RoofMaterial.trapezoidalSheet)
+            Text("Stehfalzblech").tag(RoofMaterial.standingSeam)
+            Text("Gründach").tag(RoofMaterial.greenRoof)
+            Text("Kiesdach").tag(RoofMaterial.gravel)
+            Text("Kunststoff").tag(RoofMaterial.plastic)
         }
     }
 }

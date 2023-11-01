@@ -15,4 +15,30 @@ enum RoofMaterial : String, Codable {
     
     /// Slate material
     case slate = "slate"
+    
+    /// Plain tile material
+    case plainTile = "plain tile"
+    
+    /// Roofing felt material
+    case roofingFelt = "roofing felt"
+    
+    /// Asbestos material
+    case asbestos = "asbestos"
+    
+    /// Corrugnated iron material
+    case corrugatedIron = "corrugated iron"
+    
+    /// trapezoidal sheet material
+    case trapezoidalSheet = "trapezoidal sheet"
+    
+    case standingSeam = "standing seam"
+    
+    /// Grenn roof material
+    case greenRoof = "green roof"
+    
+    /// Gravel material
+    case gravel = "gravel"
+    
+    /// plastic material
+    case plastic = "plastic"
 }
