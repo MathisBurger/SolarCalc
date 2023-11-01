@@ -52,6 +52,7 @@
 		D87B9B092AF2896D006F6967 /* OfferCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCard.swift; sourceTree = "<group>"; };
 		D87B9B0B2AF28A39006F6967 /* OfferDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailsView.swift; sourceTree = "<group>"; };
 		D87B9B0D2AF28B8D006F6967 /* RatingDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDisplay.swift; sourceTree = "<group>"; };
+		D87B9B0F2AF29C2D006F6967 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		D87B9AB62AEEB38E006F6967 = {
 			isa = PBXGroup;
 			children = (
+				D87B9B0F2AF29C2D006F6967 /* README.md */,
 				D87B9AC12AEEB38E006F6967 /* SolarCalc */,
 				D87B9AC02AEEB38E006F6967 /* Products */,
 			);
