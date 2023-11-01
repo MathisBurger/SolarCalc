@@ -24,6 +24,9 @@
 		D87B9B042AEFB961006F6967 /* RoofMaterialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B9B032AEFB961006F6967 /* RoofMaterialPicker.swift */; };
 		D87B9B062AEFBB05006F6967 /* RoofRenovatedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B9B052AEFBB05006F6967 /* RoofRenovatedPicker.swift */; };
 		D87B9B082AEFBCF7006F6967 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B9B072AEFBCF7006F6967 /* OffersView.swift */; };
+		D87B9B0A2AF2896D006F6967 /* OfferCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B9B092AF2896D006F6967 /* OfferCard.swift */; };
+		D87B9B0C2AF28A39006F6967 /* OfferDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B9B0B2AF28A39006F6967 /* OfferDetailsView.swift */; };
+		D87B9B0E2AF28B8D006F6967 /* RatingDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B9B0D2AF28B8D006F6967 /* RatingDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		D87B9B032AEFB961006F6967 /* RoofMaterialPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofMaterialPicker.swift; sourceTree = "<group>"; };
 		D87B9B052AEFBB05006F6967 /* RoofRenovatedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofRenovatedPicker.swift; sourceTree = "<group>"; };
 		D87B9B072AEFBCF7006F6967 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		D87B9B092AF2896D006F6967 /* OfferCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCard.swift; sourceTree = "<group>"; };
+		D87B9B0B2AF28A39006F6967 /* OfferDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailsView.swift; sourceTree = "<group>"; };
+		D87B9B0D2AF28B8D006F6967 /* RatingDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 			children = (
 				D87B9AF72AEFB2EC006F6967 /* RequestScreen.swift */,
 				D87B9B072AEFBCF7006F6967 /* OffersView.swift */,
+				D87B9B0B2AF28A39006F6967 /* OfferDetailsView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -136,6 +143,8 @@
 				D87B9B012AEFB81E006F6967 /* RoofAreaPicker.swift */,
 				D87B9B032AEFB961006F6967 /* RoofMaterialPicker.swift */,
 				D87B9B052AEFBB05006F6967 /* RoofRenovatedPicker.swift */,
+				D87B9B092AF2896D006F6967 /* OfferCard.swift */,
+				D87B9B0D2AF28B8D006F6967 /* RatingDisplay.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -216,6 +225,9 @@
 				D87B9AC52AEEB38E006F6967 /* ContentView.swift in Sources */,
 				D87B9AE12AEEC7E0006F6967 /* RoofMaterial.swift in Sources */,
 				D87B9ADF2AEEC747006F6967 /* RoofArea.swift in Sources */,
+				D87B9B0A2AF2896D006F6967 /* OfferCard.swift in Sources */,
+				D87B9B0E2AF28B8D006F6967 /* RatingDisplay.swift in Sources */,
+				D87B9B0C2AF28A39006F6967 /* OfferDetailsView.swift in Sources */,
 				D87B9AC32AEEB38E006F6967 /* SolarCalcApp.swift in Sources */,
 				D87B9AF82AEFB2EC006F6967 /* RequestScreen.swift in Sources */,
 				D87B9ADB2AEEC560006F6967 /* CalculationRequest.swift in Sources */,

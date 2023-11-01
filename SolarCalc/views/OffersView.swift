@@ -33,7 +33,11 @@ struct OffersView: View {
                         .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1)
                 )
                 .padding([.top, .horizontal])
-                
+                ForEach(self.response!.offers, id: \.id) {offer in
+                    NavigationLink(destination: OfferDetailsView(offer: offer)) {
+                        OfferCard(offer: offer)
+                    }
+                }
             }
         }
         .onAppear() {
@@ -41,6 +45,7 @@ struct OffersView: View {
                 do {
                     try ApiService.getSolarOffers(request: self.request!) {res in
                         self.response = res;
+                        print(res.offers[0].product_offering.location.partner)
                     }
                 } catch {
                     print(error)
